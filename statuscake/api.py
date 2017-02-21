@@ -54,7 +54,7 @@ class StatusCake(object):
         'FindString': (six.string_types, None, None),
         'DoNotFind': (int, (0, 1), None),
         'TestType': (six.string_types, ("HTTP", "TCP", "PING"), None),
-        'ContactGroup': (six.integer_types, None, None),
+        'ContactGroup': (six.string_types, None, None),
         'RealBrowser': (int, (0, 1), None),
         'TriggerRate': (int, range(0, 61), None),
         'TestTags': (six.string_types, None, to_comma_list),
